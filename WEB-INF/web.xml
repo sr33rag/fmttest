@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="fmttest1"
+  xmlns="http://java.sun.com/xml/ns/j2ee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+  version="2.4">
+
+  <display-name>JSTL Format I18n tag example</display-name>
+  <description>JSTL Format I18n taglib example</description>
+
+    <filter>
+       <filter-name>myFilter</filter-name>
+       <filter-class>com.MyFilter</filter-class>
+    </filter>
+
+    <servlet>
+       <servlet-name>myServlet</servlet-name>
+       <servlet-class>com.MyServlet</servlet-class>
+    </servlet>
+
+    <filter-mapping>
+       <filter-name>myFilter</filter-name>
+       <url-pattern>/myServlet</url-pattern>
+    </filter-mapping>
+
+    <servlet-mapping>
+       <servlet-name>myServlet</servlet-name>
+       <url-pattern>/myServlet</url-pattern>
+    </servlet-mapping>
+
+  <jsp-config>
+    <taglib>
+       <taglib-uri>http://java.sun.com/jsp/jstl/format</taglib-uri>
+       <taglib-location>/WEB-INF/fmt.tld</taglib-location>
+    </taglib>
+    <taglib>
+       <taglib-uri>http://java.sun.com/jsp/jstl/function</taglib-uri>
+       <taglib-location>/WEB-INF/fn.tld</taglib-location>
+    </taglib>
+    <taglib>
+       <taglib-uri>http://java.sun.com/jsp/jstl/core</taglib-uri>
+       <taglib-location>/WEB-INF/c.tld</taglib-location>
+    </taglib>
+  </jsp-config>
+
+    <welcome-file-list>
+       <welcome-file>page1.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>

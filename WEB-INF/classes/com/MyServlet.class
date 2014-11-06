@@ -1,0 +1,18 @@
+\CA\FE\BA\BE\00\00\002\00&
+\00\00
+\00\00\00\00\00\00\00\00\00\00<init>\00()V\00Code\00LineNumberTable\00doGet\00R(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V\00
+Exceptions\00\00\00doPost\00processRequest\00
+SourceFile\00MyServlet.java\00\00	\00\00
+\00/WEB-INF/page2.jsp\00 \00!\00"\00#\00$\00%\00
+com/MyServlet\00javax/servlet/http/HttpServlet\00java/io/IOException\00javax/servlet/ServletException\00%javax/servlet/http/HttpServletRequest\00getRequestDispatcher\005(Ljava/lang/String;)Ljavax/servlet/RequestDispatcher;\00javax/servlet/RequestDispatcher\00forward\00@(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V\00!\00\00\00\00\00\00\00\00\00\00	\00\00
+\00\00\00\00\00\00\00\00*\B7\00\B1\00\00\00\00\00\00\00\00\00\00\00
+\00\00\00
+\00\00
+\00\00\00#\00\00\00\00\00*+,\B7\00\B1\00\00\00\00\00\00\00
+\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00
+\00\00
+\00\00\00#\00\00\00\00\00*+,\B7\00\B1\00\00\00\00\00\00\00
+\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00
+\00\00
+\00\00\00,\00\00\00\00\00+\B9\00\00+,\B9\00\00\B1\00\00\00\00\00\00\00
+\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00
